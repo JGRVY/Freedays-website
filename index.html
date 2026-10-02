@@ -25,7 +25,7 @@ p,li{color:var(--ink)}
 .small{color:var(--soft);font-size:15px}
 a{color:var(--teal);text-underline-offset:3px}
 a:focus-visible,summary:focus-visible{outline:3px solid var(--teal);outline-offset:3px;border-radius:4px}
-ul{padding-left:22px}
+ul,ol{padding-left:22px}
 li{margin:4px 0}
 .contact{margin:26px 0 8px;padding:18px 20px;border-left:4px solid var(--teal);background:var(--panel);border-radius:0 10px 10px 0}
 .contact p{margin:0}
@@ -48,7 +48,7 @@ footer p{margin:0;color:var(--soft);font-size:15px}
 </a>
 
 <h1>Freedays support</h1>
-<p class="lede">Freedays is a shift calendar for iPhone. It shows your repeating shift pattern, lets you change individual days, and shares your shifts with the people you plan around.</p>
+<p class="lede">Freedays is a shift calendar for iPhone. It shows your repeating shift pattern, lets you change individual days, and shares your shifts with the people you plan around. Set your pattern up by hand, paste it in, or import it from a PDF or CSV of your duties.</p>
 
 <div class="contact">
   <p>Questions, problems or ideas:</p>
@@ -59,8 +59,43 @@ footer p{margin:0;color:var(--soft);font-size:15px}
 <h2>Common questions</h2>
 
 <details>
+  <summary>What's free, and what does the unlock add?</summary>
+  <p>Always free: your calendar, shift patterns, changing days, notes, events, shift types and colours, sending your shifts to other people, and iCloud sync and backup.</p>
+  <p>The one-off £3.99 unlock adds:</p>
+  <ul>
+    <li>Seeing shifts other people share with you.</li>
+    <li>The Days off tab and the holiday planner.</li>
+    <li>Home Screen widgets.</li>
+    <li>Apple Calendar: syncing your shifts and showing your events.</li>
+    <li>Importing a pattern from a file, or pasting one. This is free while you set up your first pattern.</li>
+  </ul>
+</details>
+
+<details>
   <summary>How does the free trial work?</summary>
-  <p>After you save your first shift pattern, Freedays offers a 28-day free trial of everything. Nothing is charged and nothing renews. When it ends, the extra features lock until you unlock Freedays with a one-off payment of £3.99. Your calendar, patterns, notes, events, sharing your shifts and iCloud sync stay free.</p>
+  <p>After you save your first shift pattern, Freedays offers a 28-day free trial of everything. Nothing is charged and nothing renews. When it ends, the unlock features lock until you unlock Freedays with a one-off payment of £3.99. It isn't a subscription, and nothing is deleted when the trial ends.</p>
+</details>
+
+<details>
+  <summary>How do I import my shift pattern from a file?</summary>
+  <ol>
+    <li>Save a PDF or CSV of your duties to the Files app, for example a 12-month duty sheet from your rostering system.</li>
+    <li>In Freedays, open the Pattern tab, tap Choose a file (PDF or CSV), and pick the file. You can pick several.</li>
+    <li>Freedays reads the shifts and works out the repeating cycle. Check the cycle length and the preview, then continue to the pattern editor. Nothing is saved until you tap Save there.</li>
+  </ol>
+  <p>Freedays reads lists of duties (a day or a week per row), month calendars, week strips, year planners, and files with several people's shifts, where you choose your own. Files are read on your iPhone and never uploaded.</p>
+</details>
+
+<details>
+  <summary>My file won't import. What should I check?</summary>
+  <p>Check that:</p>
+  <ul>
+    <li>The file has dates on it, such as 28/09/2026, 28-Sep-2026 or Mon 28 September.</li>
+    <li>It covers at least two full cycles. For a 5-week pattern, that's at least 10 weeks.</li>
+    <li>It's a PDF with real text, not a scan or photo of paper, which can't be read.</li>
+    <li>It's a PDF or CSV. For an Excel file, save it as CSV first.</li>
+  </ul>
+  <p>Still stuck? Email a short description of how the dates and shifts are laid out, or a copy with names removed, and I'll see whether it can be supported.</p>
 </details>
 
 <details>
@@ -85,7 +120,7 @@ footer p{margin:0;color:var(--soft);font-size:15px}
 
 <details>
   <summary>Does Freedays collect my data?</summary>
-  <p>No. Your shifts stay on your iPhone and in your own iCloud. See the <a href="privacy.html">privacy policy</a> for the details.</p>
+  <p>No. Your shifts stay on your iPhone and in your own iCloud. Files you import are read on your iPhone and never uploaded. See the <a href="privacy.html">privacy policy</a> for the details.</p>
 </details>
 
 <p class="small" style="margin-top:22px">There's a full Help &amp; FAQ inside the app, in Settings.</p>
